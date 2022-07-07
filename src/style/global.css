@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-blue-300 text-white
+}
+
+input{
+  @apply bg-transparent border border-purple-400 p-2 rounded-md w-full
+}
